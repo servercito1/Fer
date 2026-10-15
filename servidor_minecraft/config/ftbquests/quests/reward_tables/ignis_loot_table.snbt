@@ -1,0 +1,56 @@
+{
+	id: "123A5E6463898798"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 40, item: "irons_spellbooks:common_ink" }
+		{ count: 30, item: "irons_spellbooks:uncommon_ink", weight: 0.8f }
+		{ count: 20, item: "irons_spellbooks:rare_ink", weight: 0.6f }
+		{ count: 15, item: "irons_spellbooks:epic_ink", weight: 0.4f }
+		{ count: 10, item: "irons_spellbooks:legendary_ink", weight: 0.2f }
+		{ item: "cataclysm:burning_ashes", weight: 0.5f }
+		{ item: "cataclysm:bulwark_of_the_flame", weight: 0.1f }
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:flames_of_eldritch"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:burning_judgment"
+							index: 0
+							level: 6
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+			weight: 0.05f
+		}
+		{ item: "traveloptics:flame_tempered_handguard", weight: 0.05f }
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:burning_judgment"
+							index: 0
+							level: 6
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+	]
+	title: "Ignis Loot Table"
+}

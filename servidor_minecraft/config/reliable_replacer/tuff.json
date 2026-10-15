@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "minecraft:tuff"
+  ],
+  "output": "undergarden:cracked_depthrock_bricks",
+
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "probability": 1.0,
+  "retrogen": false,
+  "player_blocks": false,
+  "keep_states": true
+}

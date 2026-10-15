@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "customworldgen:spawn_prism_prison",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "frequency": 0.0,
+    "salt": 684512,
+    "spacing": 36,
+    "separation": 24,
+    "type": "minecraft:random_spread"
+  }
+}

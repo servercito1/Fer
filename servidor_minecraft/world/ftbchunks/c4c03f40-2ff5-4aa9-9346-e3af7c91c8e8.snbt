@@ -1,0 +1,35 @@
+{
+	max_claim_chunks: 500
+	max_force_load_chunks: 25
+	last_login_time: 1792081933751L
+	chunks: {
+		"undergarden:undergarden": [{ x: -31, z: -29, time: 1792019476773L }]
+	}
+	member_data: {
+		056f1c9d-6010-33cb-97f1-dc6ec62d51e2: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		723b787f-e39c-30ff-b7d5-58288031b1f3: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		77fcb98c-7faf-3dc8-8095-81ba0a63f778: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		ee7190bc-8100-3c4b-9608-df7b16faf2e5: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+		9f1a9d66-e1bf-311c-92f5-108bb1dd7193: {
+			max_force_loaded_chunks: 25
+			max_claimed_chunks: 500
+			offline_force_loader: 0b
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "inventory": {
+    "0:3": "{Count:12b,id:\"undergarden:wigglewood_log\"}",
+    "0:0": "{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"patchouli:aa_guide_book\"}}",
+    "0:2": "{Count:6b,id:\"undergardendelight:gronglunch\"}"
+  },
+  "wipeBlacklist": []
+}

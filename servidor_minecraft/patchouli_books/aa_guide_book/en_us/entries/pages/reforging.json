@@ -1,0 +1,23 @@
+{
+    "name": "Reforging",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:early_game",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Nearly all armor, tools, weapons and accessories can be reforged to change the modifier it has, rarer modifiers provide more potent buffs.."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "To reforge you need an Anvil and a hammer that corresponds to the type of item you want to reforge, an Armorers hammer for armor and accessories and a Weaponsmiths hammer for weapons (tools cannot currently be reforged, next update that'll be added)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "You can craft the necessary hammers for the item you want to reforge using cloggrum ingots and sticks, check JEI for the recipes."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "To be able to reforge an item, it must be full durability and must not have the Extended reforge, as all items with this reforge become unreforgeable. $(br)$(br)Do bear in mind not all items can be reforged, it's monitored by tags, and not all are included."
+        }
+    ]
+}

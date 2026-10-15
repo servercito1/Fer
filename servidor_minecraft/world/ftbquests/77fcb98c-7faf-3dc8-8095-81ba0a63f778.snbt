@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "77fcb98c7faf3dc8809581ba0a63f778"
+	name: "elrisas741#77fcb98c"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		739907E41782730B: 1
+	}
+	started: {
+		167A537B043A5E1D: 1791942892213L
+		0000000000000001: 1791942892213L
+		739907E41782730B: 1791942892213L
+		60F5E1E7CEC7F511: 1791942892213L
+	}
+	completed: {
+		167A537B043A5E1D: 1791942892213L
+		739907E41782730B: 1791942892213L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

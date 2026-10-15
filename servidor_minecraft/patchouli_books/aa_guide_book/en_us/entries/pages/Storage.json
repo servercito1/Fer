@@ -1,0 +1,54 @@
+{
+    "name": "Storage",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:middle_game",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Tom's Simple Storage allows you to connect multiple chests together in one big inventory, and access it through a terminal. First you'll need to craft a Storage Terminal"
+        },
+		{
+            "title":"Storage Terminal",
+            "type":"patchouli:crafting",
+            "recipe":"toms_storage:crafting_terminal"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "This is what gives you, your access to the chest array. It can later be upgraded to a crafting terminal, which implements a crafting table within the UI."
+        },
+		{
+            "type": "patchouli:text",
+            "text": "You'll also need an Inventory Connector. This is what you'll need to place between your chests / barrels and the Terminal, this connects the chests, barrels and other storage blocks together into one inventory."
+        },
+		{
+            "title":"Inventory Connector",
+            "type":"patchouli:crafting",
+            "recipe":"toms_storage:inventory_connector"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "You can also connect multiple inventories together using either Inventory Trims or Inventory Cables."
+        },
+		{
+            "type": "patchouli:text",
+            "text": "Sophisticated Storage can further enhance your storage by allowing for upgradable chests and barrels, much like the backpacks."
+        },
+		{
+            "type": "patchouli:text",
+            "text": "You can increase the inventory size of the storage chests with Iron, Gold, Diamond and Netherite upgrades. There is a range of other upgrades too, such as the stack upgrade, compacting upgrade, void upgrade and more!"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "Once the Wither has been defeated, you can further enhance your storage with Wireless Terminals. Place a Level 1-3 Beacon within 8 blocks of the Terminal and right click the Terminal with a Wireless Transmitter. "
+        },
+		{
+            "title":"Wireless Terminal",
+            "type":"patchouli:crafting",
+            "recipe":"toms_storage:wireless_terminal"
+        },
+		{
+            "type": "patchouli:text",
+            "text": "You can now access your storage from ~16 blocks away. You can further upgrade this with an Advanced Wireless Terminal and a level 4 beacon. This will allow you to access your storage system from any dimension!"
+        }
+	]
+}

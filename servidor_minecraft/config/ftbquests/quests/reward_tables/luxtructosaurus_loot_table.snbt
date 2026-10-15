@@ -1,0 +1,34 @@
+{
+	id: "08FE0FDDCC8CF124"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 60, item: "irons_spellbooks:common_ink" }
+		{ count: 45, item: "irons_spellbooks:uncommon_ink", weight: 0.8f }
+		{ count: 30, item: "irons_spellbooks:rare_ink", weight: 0.6f }
+		{ count: 20, item: "irons_spellbooks:epic_ink", weight: 0.4f }
+		{ count: 15, item: "irons_spellbooks:legendary_ink", weight: 0.1f }
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:gauntlet_of_extinction"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:extinction"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+			weight: 0.05f
+		}
+	]
+	title: "Luxtructosaurus Loot Table"
+}

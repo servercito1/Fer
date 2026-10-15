@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "minecraft:large_fern"
+  ],
+  "output": "undergarden:tall_deepturf",
+
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "probability": 1.0,
+  "retrogen": true,
+  "player_blocks": false,
+  "keep_states": true
+}

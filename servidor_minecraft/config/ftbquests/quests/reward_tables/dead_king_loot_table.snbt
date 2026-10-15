@@ -1,0 +1,14 @@
+{
+	id: "239A34F6E033E62A"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 5, item: "irons_spellbooks:legendary_ink", weight: 0.1f }
+		{ count: 5, item: "irons_spellbooks:epic_ink", weight: 0.2f }
+		{ count: 10, item: "irons_spellbooks:rare_ink", weight: 0.6f }
+		{ count: 15, item: "irons_spellbooks:uncommon_ink", weight: 0.8f }
+		{ count: 20, item: "irons_spellbooks:common_ink" }
+		{ item: "irons_spellbooks:mana_ring", weight: 0.2f }
+	]
+	title: "Dead King Loot Table"
+}

@@ -1,0 +1,3 @@
+#Show the tip about changing the garbage collector in chat each time a world is joined.
+showGarbageCollectorHint = true
+

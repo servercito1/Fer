@@ -1,0 +1,30 @@
+
+[ShieldList]
+	#
+	#List of items to considered as shields, any item with right-click functionality will theoretically work
+	#Automatically populated with items that have parrying stats set by active datapacks
+	shieldList = ["shieldexp:wooden_shield", "shieldexp:iron_shield", "shieldexp:netherite_shield", "alexsmobs:shield_of_the_deep", "minecraft:shield", "shieldexp:golden_shield", "shieldexp:diamond_shield", "artifacts:umbrella", "spartanundergarden:froststeel_scythe", "spartanweaponry:stone_halberd", "spartanweaponry:netherite_halberd", "spartanweaponry:netherite_parrying_dagger", "spartanundergarden:froststeel_halberd", "spartanundergarden:froststeel_parrying_dagger", "spartanweaponry:copper_halberd", "spartanweaponry:golden_glaive", "spartanweaponry:stone_katana", "spartanweaponry:stone_parrying_dagger", "spartanundergarden:froststeel_longsword", "spartanweaponry:golden_parrying_dagger", "spartanweaponry:copper_parrying_dagger", "spartanweaponry:iron_katana", "spartanweaponry:netherite_scythe", "spartanundergarden:utherium_scythe", "spartanundergarden:cloggrum_parrying_dagger", "spartanundergarden:forgotten_scythe", "spartanweaponry:stone_longsword", "spartanundergarden:forgotten_halberd", "spartanweaponry:diamond_scythe", "spartanweaponry:copper_scythe", "spartanundergarden:utherium_parrying_dagger", "spartanweaponry:wooden_halberd", "spartanweaponry:golden_halberd", "spartanweaponry:stone_scythe", "spartanweaponry:wooden_katana", "spartanweaponry:wooden_greatsword", "spartanweaponry:copper_katana", "spartanweaponry:silver_longsword", "spartanundergarden:utherium_longsword", "spartanundergarden:cloggrum_longsword", "spartanundergarden:cloggrum_greatsword", "spartanundergarden:cloggrum_glaive", "spartanweaponry:iron_parrying_dagger", "spartanundergarden:froststeel_glaive", "spartanweaponry:golden_greatsword", "spartanweaponry:copper_greatsword", "spartanundergarden:cloggrum_halberd", "spartanweaponry:wooden_scythe", "spartanweaponry:iron_glaive", "spartanweaponry:diamond_parrying_dagger", "spartanweaponry:wooden_longsword", "spartanweaponry:iron_greatsword", "spartanweaponry:silver_scythe", "spartanweaponry:copper_glaive", "spartanundergarden:froststeel_greatsword", "spartanweaponry:netherite_greatsword", "spartanweaponry:wooden_glaive", "spartanweaponry:diamond_longsword", "spartanweaponry:diamond_katana", "spartanundergarden:forgotten_longsword", "spartanweaponry:stone_greatsword", "spartanundergarden:forgotten_parrying_dagger", "spartanundergarden:cloggrum_katana", "spartanweaponry:golden_scythe", "spartanweaponry:iron_longsword", "spartanundergarden:forgotten_glaive", "spartanundergarden:utherium_greatsword", "spartanweaponry:silver_katana", "spartanundergarden:utherium_halberd", "spartanundergarden:froststeel_katana", "spartanundergarden:forgotten_greatsword", "spartanweaponry:diamond_halberd", "spartanundergarden:utherium_glaive", "spartanweaponry:netherite_longsword", "spartanweaponry:silver_halberd", "spartanweaponry:iron_halberd", "spartanweaponry:diamond_greatsword", "spartanweaponry:netherite_glaive", "spartanweaponry:golden_longsword", "spartanundergarden:cloggrum_scythe", "spartanweaponry:silver_greatsword", "spartanweaponry:diamond_glaive", "spartanweaponry:golden_katana", "spartanundergarden:forgotten_katana", "spartanweaponry:stone_glaive", "spartanweaponry:copper_longsword", "spartanweaponry:silver_glaive", "spartanweaponry:wooden_parrying_dagger", "spartanundergarden:utherium_katana", "spartanweaponry:silver_parrying_dagger", "spartanweaponry:netherite_katana", "spartanweaponry:iron_scythe"]
+	#
+	#List of items to not consider as shields, even if they have stats set by a datapack
+	shieldBlacklist = []
+
+[Modifiers]
+	#
+	#Disable the cooldown when the player lowers their shield
+	noLoweringCooldown = true
+	#
+	#Disable putting shields on cooldown at all
+	noCooldown = false
+	#
+	#Make all shields have vanilla movement speed
+	noSpeedModifier = false
+	#
+	#Make shields only block partial damage from explosions when not parrying
+	harderExplosions = false
+	#
+	#Double the parry window for a more relaxed experience
+	lenientParryMode = false
+	#
+	#Double the shield stamina for a more relaxed experience
+	lenientStaminaMode = false
+

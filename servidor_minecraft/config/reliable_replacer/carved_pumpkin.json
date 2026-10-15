@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "minecraft:carved_pumpkin"
+  ],
+  "output": "undergarden:carved_gloomgourd",
+
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "probability": 1.0,
+  "retrogen": true,
+  "player_blocks": false,
+  "keep_states": true
+}

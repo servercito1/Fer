@@ -1,0 +1,27 @@
+{
+    "name": "Enchanting",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:early_game",
+    "pages": [
+        {
+	    "type": "patchouli:text",
+            "text": "Didn't expect to see this so early eh?"
+        },
+        {
+	    "type": "patchouli:text",
+            "text": "Enchanting is a core part of Abyssal Ascent and its progression.$(br)$(br)You'll go through multiple armorsets throughout Abyssal Ascent, all of these will need to be enchanted in order to survive."
+        },
+        {
+	    "type": "patchouli:text",
+            "text": "Enchanting has many upsides from vanilla here, along with many other enchants that you can use."
+        },
+        {
+	    "type": "patchouli:text",
+            "text": "The most important parts of enchanting in Abyssal Ascent, is to know that;$(br)$(br) 1. Anvils do not have any NBT cap.$(br)$(br) 2. There's a disenchanting table, which allows you to disenchant any item and get the book of the enchant in return."
+        },
+        {
+	    "type": "patchouli:text",
+            "text": "How you want to gain the XP required to do all of this is up to you, and please, do not try to skip enchanting."
+        }
+    ]
+}

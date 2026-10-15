@@ -1,0 +1,95 @@
+[
+  {
+    "mob": [ "minecraft:zombified_piglin", "minecraft:hoglin" ],
+    "weights": [ 40, 25 ],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": { "minimum": 3, "maximum": 8 },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+	  "maxtotal": 20,
+      "and": { "biome": "nethers_exorcism_reborn:biohazardous_delta" }
+    }
+  },
+  {
+    "mob": [ 
+      "minecraft:zombified_piglin", 
+      "minecraft:hoglin", 
+      "alexsmobs:warped_toad",
+      "alexsmobs:soul_vulture"
+    ],
+    "weights": [ 40, 25, 30, 5 ],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": { "minimum": 2, "maximum": 6 },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+	  "maxtotal": 20,
+      "and": { "biome": "regions_unexplored:blackstone_basin" }
+    }
+  },
+  {
+    "mob": [ 
+      "minecraft:zombified_piglin", 
+      "minecraft:hoglin", 
+      "alexsmobs:warped_toad",
+      "alexsmobs:soul_vulture"
+    ],
+    "weights": [ 40, 25, 30, 5 ],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": { "minimum": 2, "maximum": 6 },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+	  "maxtotal": 20,
+      "and": { "biome": "regions_unexplored:mycotoxic_undergrowth" }
+    }
+  },
+  {
+    "mob": [
+      "minecraft:zombified_piglin",
+      "minecraft:hoglin",
+      "minecraft:enderman",
+      "alexsmobs:mungus"
+    ],
+    "weights": [ 40, 25, 60, 30 ],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": { "minimum": 1, "maximum": 10 },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+	  "maxtotal": 20,
+      "and": { "biome": "nethers_exorcism_reborn:dna_forest" }
+    }
+  },
+  {
+    "mob": [
+      "alexsmobs:crimson_mosquito",
+      "alexsmobs:dropbear"
+    ],
+    "weights": [ 40, 25 ],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": { "minimum": 2, "maximum": 5 },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+	  "maxtotal": 20,
+      "and": { "biome": "regions_unexplored:infernal_holt" }
+    }
+  },
+  {
+    "mob": [
+      "alexsmobs:crimson_mosquito",
+      "alexsmobs:dropbear"
+    ],
+    "weights": [ 40, 25 ],
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": { "minimum": 2, "maximum": 5 },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+	  "maxtotal": 20,
+      "and": { "biome": "regions_unexplored:redstone_abyss" }
+    }
+  }
+]

@@ -1,0 +1,132 @@
+[14:42:32.634][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
+[14:42:32.659][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[14:42:32.715][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[14:42:32.716][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[14:42:32.722][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[14:42:34.052][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[14:42:34.053][INFO][CraftTweaker]: - 'aether' at version '1.20.1-1.5.2-neoforge'
+[14:42:34.053][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.59'
+[14:42:34.053][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.3.4'
+[14:42:44.796][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[14:42:45.321][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[14:42:45.360][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[14:42:45.447][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[14:42:57.517][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[14:42:57.551][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[14:42:57.572][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[14:42:57.585][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[14:42:59.627][INFO][CraftTweaker]: crafttweaker.reload.start
+[14:42:59.634][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[14:42:59.663][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[14:43:00.046][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[14:43:00.052][INFO][CraftTweaker-ZenCode]: Loading file 'ct_intro_cutscene.zs' with priority 0
+[14:43:00.054][INFO][CraftTweaker-ZenCode]: Loading file 'ct_spectral_hammer_blocks.zs' with priority 0
+[14:43:00.062][INFO][CraftTweaker-ZenCode]: Loading file 'ct_tags.zs' with priority 0
+[14:43:00.152][INFO][CraftTweaker]: Registering event listener for net.minecraftforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent
+[14:43:00.158][INFO][CraftTweaker]: Adding: [minecraft:dripstone_block] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.160][INFO][CraftTweaker]: Adding: [alexscaves:limestone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.160][INFO][CraftTweaker]: Adding: [alexscaves:guanostone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.161][INFO][CraftTweaker]: Adding: [infinite_abyss:deepstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.161][INFO][CraftTweaker]: Adding: [infinite_abyss:red_deepstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.161][INFO][CraftTweaker]: Adding: [infinite_abyss:fourth_layer_deepstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.162][INFO][CraftTweaker]: Adding: [infinite_abyss:seventh_layer_deepstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.162][INFO][CraftTweaker]: Adding: [infinite_abyss:fourth_layer_deepslate] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.163][INFO][CraftTweaker]: Adding: [infinite_abyss:red_cobbled_deepstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.163][INFO][CraftTweaker]: Adding: [infinite_abyss:seventh_layer_cobbled_deepstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.164][INFO][CraftTweaker]: Adding: [infinite_abyss:fourth_layer_cobbled_deepstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.164][INFO][CraftTweaker]: Adding: [deeperdarker:cobbled_sculk_stone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.164][INFO][CraftTweaker]: Adding: [bygonenether:cobbled_blackstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.165][INFO][CraftTweaker]: Adding: [minecraft:end_stone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.165][INFO][CraftTweaker]: Adding: [alexscaves:radrock] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.166][INFO][CraftTweaker]: Adding: [undergarden:shiverstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.166][INFO][CraftTweaker]: Adding: [undergarden:depthrock] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.166][INFO][CraftTweaker]: Adding: [undergarden:sediment] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.167][INFO][CraftTweaker]: Adding: [undergarden:depthrock_bricks] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.167][INFO][CraftTweaker]: Adding: [bygonenether:soul_stone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.168][INFO][CraftTweaker]: Adding: [netherexp:ecto_soul_sand] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.168][INFO][CraftTweaker]: Adding: [nourished_nether:soul_sludge] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.168][INFO][CraftTweaker]: Adding: [nourished_nether:ashy_basalt] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.169][INFO][CraftTweaker]: Adding: [netherexp:basaltic_geyser] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.169][INFO][CraftTweaker]: Adding: [minecraft:packed_mud] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.170][INFO][CraftTweaker]: Adding: [alexscaves:coprolith] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.170][INFO][CraftTweaker]: Adding: [regions_unexplored:ash_vent] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.170][INFO][CraftTweaker]: Adding: [regions_unexplored:ash] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.171][INFO][CraftTweaker]: Adding: [alexscaves:metal_swarf] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.171][INFO][CraftTweaker]: Adding: [alexscaves:galena] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.172][INFO][CraftTweaker]: Adding: [alexscaves:energized_galena_azure] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.172][INFO][CraftTweaker]: Adding: [alexscaves:energized_galena_neutral] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.173][INFO][CraftTweaker]: Adding: [alexscaves:energized_galena_scarlet] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.173][INFO][CraftTweaker]: Adding: [alexscaves:flood_basalt] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.173][INFO][CraftTweaker]: Adding: [alexscaves:muck] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.174][INFO][CraftTweaker]: Adding: [alexscaves:abyssmarine] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.174][INFO][CraftTweaker]: Adding: [cavesanddepths:slate] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.175][INFO][CraftTweaker]: Adding: [cavesanddepths:mossy_cobblestone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.175][INFO][CraftTweaker]: Adding: [infinite_abyss:slimy_deepstone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.175][INFO][CraftTweaker]: Adding: [infinite_abyss:glowing_green_crystal_block] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.176][INFO][CraftTweaker]: Adding: [deeperdarker:sculk_stone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.176][INFO][CraftTweaker]: Adding: [deeperdarker:blooming_sculk_stone] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.177][INFO][CraftTweaker]: Adding: [deeperdarker:gloomslate] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.177][INFO][CraftTweaker]: Adding: [deeperdarker:echo_soil] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.178][INFO][CraftTweaker]: Adding: [deeperdarker:sculk_grime] to tag: <tag:blocks:irons_spellbooks:spectral_hammer_mineable>
+[14:43:00.180][INFO][CraftTweaker]: Adding: [minecraft:dripstone_block] to tag: <tag:items:forge:cobblestone>
+[14:43:00.180][INFO][CraftTweaker]: Adding: [alexscaves:limestone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.181][INFO][CraftTweaker]: Adding: [alexscaves:guanostone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.182][INFO][CraftTweaker]: Adding: [infinite_abyss:deepstone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.182][INFO][CraftTweaker]: Adding: [infinite_abyss:red_deepstone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.183][INFO][CraftTweaker]: Adding: [infinite_abyss:fourth_layer_deepstone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.183][INFO][CraftTweaker]: Adding: [infinite_abyss:seventh_layer_deepstone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.184][INFO][CraftTweaker]: Adding: [infinite_abyss:fourth_layer_deepslate] to tag: <tag:items:forge:cobblestone>
+[14:43:00.184][INFO][CraftTweaker]: Adding: [infinite_abyss:red_cobbled_deepstone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.185][INFO][CraftTweaker]: Adding: [infinite_abyss:seventh_layer_cobbled_deepstone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.186][INFO][CraftTweaker]: Adding: [infinite_abyss:fourth_layer_cobbled_deepstone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.187][INFO][CraftTweaker]: Adding: [deeperdarker:cobbled_sculk_stone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.187][INFO][CraftTweaker]: Adding: [bygonenether:cobbled_blackstone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.188][INFO][CraftTweaker]: Adding: [minecraft:end_stone] to tag: <tag:items:forge:cobblestone>
+[14:43:00.189][INFO][CraftTweaker]: Adding: [alexscaves:radrock] to tag: <tag:items:forge:cobblestone>
+[14:43:00.190][INFO][CraftTweaker]: Registering new items tag with name <tag:items:minecraft:stone_crafting_material>
+[14:43:00.191][INFO][CraftTweaker]: Adding: [minecraft:dripstone_block] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.191][INFO][CraftTweaker]: Adding: [alexscaves:limestone] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.192][INFO][CraftTweaker]: Adding: [alexscaves:guanostone] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.192][INFO][CraftTweaker]: Adding: [infinite_abyss:red_deepstone] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.193][INFO][CraftTweaker]: Adding: [infinite_abyss:fourth_layer_deepstone] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.194][INFO][CraftTweaker]: Adding: [infinite_abyss:seventh_layer_deepstone] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.194][INFO][CraftTweaker]: Adding: [infinite_abyss:fourth_layer_deepslate] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.195][INFO][CraftTweaker]: Adding: [deeperdarker:cobbled_sculk_stone] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.195][INFO][CraftTweaker]: Adding: [minecraft:end_stone] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.195][INFO][CraftTweaker]: Adding: [alexscaves:radrock] to tag: <tag:items:minecraft:stone_crafting_material>
+[14:43:00.196][INFO][CraftTweaker]: Removing: [explorerscompass:explorerscompass] from tag: <tag:items:alexscaves:restricted_biome_locators>
+[14:43:00.196][INFO][CraftTweaker]: Removing: [naturescompass:naturescompass] from tag: <tag:items:alexscaves:restricted_biome_locators>
+[14:43:00.196][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[14:43:00.199][INFO][CraftTweaker]: crafttweaker.reload.complete
+[14:45:32.050][INFO][Script]: PlayerChangedDimensionEvent ran!
+[14:46:25.669][INFO][Script]: PlayerChangedDimensionEvent ran!
+[14:46:26.966][INFO][Script]: PlayerChangedDimensionEvent ran!
+[14:46:33.625][INFO][Script]: PlayerChangedDimensionEvent ran!
+[14:47:44.680][INFO][Script]: PlayerChangedDimensionEvent ran!
+[14:48:10.982][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:18:34.394][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:33:06.601][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:33:08.943][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:33:09.354][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:33:09.637][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:41:05.403][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:41:05.800][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:41:05.929][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:41:47.183][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:41:58.343][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:41:58.763][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:41:59.050][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:42:18.689][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:49:21.693][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:49:22.556][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:49:23.074][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:53:15.731][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:54:08.352][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:54:08.773][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:54:08.990][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:54:09.368][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:54:09.788][INFO][Script]: PlayerChangedDimensionEvent ran!
+[16:55:25.189][INFO][Script]: PlayerChangedDimensionEvent ran!
+[17:13:22.137][INFO][Script]: PlayerChangedDimensionEvent ran!
+[17:15:03.081][INFO][Script]: PlayerChangedDimensionEvent ran!
+[17:17:41.123][INFO][Script]: PlayerChangedDimensionEvent ran!

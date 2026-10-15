@@ -1,0 +1,44 @@
+{
+	id: "c4c03f40-2ff5-4aa9-9346-e3af7c91c8e8"
+	type: "party"
+	owner: "056f1c9d-6010-33cb-97f1-dc6ec62d51e2"
+	ranks: {
+		77fcb98c-7faf-3dc8-8095-81ba0a63f778: "member"
+		723b787f-e39c-30ff-b7d5-58288031b1f3: "member"
+		056f1c9d-6010-33cb-97f1-dc6ec62d51e2: "owner"
+		ee7190bc-8100-3c4b-9608-df7b16faf2e5: "member"
+		9f1a9d66-e1bf-311c-92f5-108bb1dd7193: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "los pi·BLES"
+		"ftbteams:description": ""
+		"ftbteams:color": "#597BFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:allow_pvp": 0b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1791941480393L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"_Yeoz_\"}]}" }
+		{ from: "056f1c9d-6010-33cb-97f1-dc6ec62d51e2", date: 1791941491032L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Qaliwarma\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1791941493679L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Qaliwarma\"}]}" }
+		{ from: "056f1c9d-6010-33cb-97f1-dc6ec62d51e2", date: 1791941495045L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"PEDRO_PONY_846\"}]}" }
+		{ from: "056f1c9d-6010-33cb-97f1-dc6ec62d51e2", date: 1791941498988L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"zs_zorrito\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1791941500643L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"PEDRO_PONY_846\"}]}" }
+		{ from: "056f1c9d-6010-33cb-97f1-dc6ec62d51e2", date: 1791942169650L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"zs_zorrito\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1791942179106L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"zs_zorrito\"}]}" }
+		{ from: "056f1c9d-6010-33cb-97f1-dc6ec62d51e2", date: 1791943116199L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"elrisas741\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1791943117543L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"elrisas741\"}]}" }
+	]
+	extra: { }
+}

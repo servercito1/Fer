@@ -1,0 +1,27 @@
+{
+    "name": "World Bricks(READ)",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:must_read",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The most common world brick in Abyssal Ascent (according to reports) is one that appears upon generation."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "There is a possibility that the dimension stack did not initialize correctly, to check this you must go into spectator and see if The Nether loads correctly, if it does, just play as normal in the Undergarden."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Other world bricks are entirely self-caused, they consist mainly of: $(br)Drinking Lava Vision. $(br)Spawning in a Quiver. $(br)Using Recall with no spawnpoint. $(br)Using primordial steed in a hosted world."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As always, anything outside of intended progression might brick your world, your data or even just your launcher. If you do end up with an issue due to doing something unintended, that is not our fault."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As always if you have issues, check out our Discord and open a ticket, link is on the curseforge page."
+        }
+    ]
+}

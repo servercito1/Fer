@@ -1,0 +1,116 @@
+{
+  "weight": 2,
+  "verifiers": [
+    {
+      "tag": "minecraft:head_armor"
+    },
+    {
+      "tag": "c:helmets"
+    },
+    {
+      "tag": "minecraft:leather_helmet"
+    },
+    {
+      "tag": "minecraft:chainmail_helmet"
+    },
+    {
+      "tag": "minecraft:golden_helmet"
+    },
+    {
+      "tag": "minecraft:iron_helmet"
+    },
+    {
+      "tag": "minecraft:diamond_helmet"
+    },
+    {
+      "tag": "minecraft:netherite_helmet"
+    },
+    {
+      "tag": "minecraft:turtle_helmet"
+    },
+    {
+      "tag": "minecraft:chest_armor"
+    },
+    {
+      "tag": "c:chestplates"
+    },
+    {
+      "tag": "minecraft:leather_chestplate"
+    },
+    {
+      "tag": "minecraft:chainmail_chestplate"
+    },
+    {
+      "tag": "minecraft:golden_chestplate"
+    },
+    {
+      "tag": "minecraft:iron_chestplate"
+    },
+    {
+      "tag": "minecraft:diamond_chestplate"
+    },
+    {
+      "tag": "minecraft:netherite_chestplate"
+    },
+    {
+      "tag": "minecraft:leg_armor"
+    },
+    {
+      "tag": "c:leggings"
+    },
+    {
+      "tag": "minecraft:leather_leggings"
+    },
+    {
+      "tag": "minecraft:chainmail_leggings"
+    },
+    {
+      "tag": "minecraft:golden_leggings"
+    },
+    {
+      "tag": "minecraft:iron_leggings"
+    },
+    {
+      "tag": "minecraft:diamond_leggings"
+    },
+    {
+      "tag": "minecraft:netherite_leggings"
+    },
+    {
+      "tag": "minecraft:foot_armor"
+    },
+    {
+      "tag": "c:boots"
+    },
+    {
+      "tag": "minecraft:leather_boots"
+    },
+    {
+      "tag": "minecraft:chainmail_boots"
+    },
+    {
+      "tag": "minecraft:golden_boots"
+    },
+    {
+      "tag": "minecraft:iron_boots"
+    },
+    {
+      "tag": "minecraft:diamond_boots"
+    },
+    {
+      "tag": "minecraft:netherite_boots"
+    },
+    {
+      "tag": "forge:armors"
+    }
+  ],
+  "tiers": [
+    "tiered:armors/fortified",
+    "tiered:armors/heavy",
+    "tiered:armors/reinforced",
+    "tiered:armors/resilient",
+    "tiered:standard_armors/epic",
+    "tiered:standard_armors/legendary",
+    "tiered:standard_armors/rare"
+  ]
+}

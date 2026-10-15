@@ -1,0 +1,519 @@
+
+["irons_spellbooks:fire"]
+
+	["irons_spellbooks:fire".traveloptics_lava_bomb]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_fire_breath]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_magma_bomb]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_blaze_storm]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_firebolt]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_flaming_barrage]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_flaming_strike]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".traveloptics_tectonic_rift]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_fireball]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_heat_surge]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".traveloptics_ignited_onslaught]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_wall_of_fire]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".traveloptics_meteor_storm]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_scorch]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".traveloptics_extinction]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".irons_spellbooks_burning_dash]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".traveloptics_burning_judgment]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".traveloptics_gyro_slash]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:fire".traveloptics_annihilation]
+		baseCooldownInSeconds = 0.0
+
+["traveloptics:aqua"]
+
+	["traveloptics:aqua".traveloptics_vortex_of_the_deep]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_aqua_missiles]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_tidal_grasp]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_floodgate]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_bubble_spray]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_echo_of_the_abyss]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_flood_slash]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_coral_barrage]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_rainfall]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_hydroshot]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_tidal_slash]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_tsunami]
+		baseCooldownInSeconds = 0.0
+
+	["traveloptics:aqua".traveloptics_jet_steam]
+		baseCooldownInSeconds = 0.0
+
+["irons_spellbooks:nature"]
+
+	["irons_spellbooks:nature".irons_spellbooks_poison_arrow]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".traveloptics_aerial_collapse]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_root]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_blight]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_acid_orb]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_poison_breath]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".traveloptics_venomous_rift]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".traveloptics_primordial_steed]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_earthquake]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_poison_splash]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".traveloptics_swirl]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_oakskin]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_spider_aspect]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_firefly_swarm]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".traveloptics_stele_cascade]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_stomp]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".irons_spellbooks_gluttony]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".traveloptics_primal_pack]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:nature".traveloptics_earthshatter]
+		baseCooldownInSeconds = 0.0
+
+["irons_spellbooks:evocation"]
+
+	["irons_spellbooks:evocation".traveloptics_ashen_breath]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_gust]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_invisibility]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_summon_vex]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_wololo]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_spectral_hammer]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_arrow_volley]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_fang_ward]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_fang_strike]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_chain_creeper]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_lob_creeper]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_shield]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".traveloptics_lingering_strain]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_summon_horse]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_slow]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:evocation".irons_spellbooks_firecracker]
+		baseCooldownInSeconds = 0.0
+
+["irons_spellbooks:ender"]
+
+	["irons_spellbooks:ender".traveloptics_rune_swirl]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_evasion]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_recall]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_void_eruption]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_conjure_void_tomes]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_blink]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_magic_arrow]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_teleport]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_echoing_strikes]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_cursed_minefield]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_vortex_punch]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_portal]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_black_hole]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_orbital_void]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_magic_missile]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_summon_ender_chest]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_dragon_breath]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_counterspell]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_eternal_sentinel]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_supernova]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".irons_spellbooks_starfall]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_shear_of_the_stars]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ender".traveloptics_astral_sense]
+		baseCooldownInSeconds = 0.0
+
+["irons_spellbooks:ice"]
+
+	["irons_spellbooks:ice".traveloptics_cursed_revenants]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".irons_spellbooks_frostbite]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".traveloptics_despair]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".irons_spellbooks_ray_of_frost]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".irons_spellbooks_cone_of_cold]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".irons_spellbooks_frostwave]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".traveloptics_halberd_horizon]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".irons_spellbooks_summon_polar_bear]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".irons_spellbooks_icicle]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".traveloptics_cursed_blast]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".traveloptics_axe_of_the_doomed]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".irons_spellbooks_ice_block]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".irons_spellbooks_frost_step]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:ice".traveloptics_sticky_steed_summon]
+		baseCooldownInSeconds = 0.0
+
+["irons_spellbooks:eldritch"]
+
+	["irons_spellbooks:eldritch".traveloptics_blackout]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".irons_spellbooks_telekinesis]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".traveloptics_void_devourer]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".traveloptics_spectral_blink]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".irons_spellbooks_planar_sight]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".irons_spellbooks_eldritch_blast]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".irons_spellbooks_abyssal_shroud]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".irons_spellbooks_sonic_boom]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".traveloptics_psychic_bolt]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".irons_spellbooks_sculk_tentacles]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".traveloptics_abyssal_blast]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".traveloptics_reversal]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".traveloptics_the_forgotten_beast]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".traveloptics_shadowed_miasma]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:eldritch".traveloptics_violent_skreech]
+		baseCooldownInSeconds = 0.0
+
+["irons_spellbooks:holy"]
+
+	["irons_spellbooks:holy".irons_spellbooks_healing_circle]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_blessing_of_life]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".traveloptics_banish]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_sunbeam]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_heal]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_wisp]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_divine_smite]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_greater_heal]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".traveloptics_solar_flare]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".traveloptics_summon_desert_dwellers]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".traveloptics_sword_of_the_ancients]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".traveloptics_nullflare]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_angel_wing]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_fortify]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_guiding_bolt]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_haste]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:holy".irons_spellbooks_cloud_of_regeneration]
+		baseCooldownInSeconds = 0.0
+
+["irons_spellbooks:blood"]
+
+	["irons_spellbooks:blood".irons_spellbooks_raise_dead]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".irons_spellbooks_blood_slash]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".irons_spellbooks_blood_step]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".irons_spellbooks_acupuncture]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".traveloptics_nocturnal_swarm]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".irons_spellbooks_blood_needles]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".irons_spellbooks_sacrifice]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".irons_spellbooks_devour]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".traveloptics_vigor_siphon]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".traveloptics_eek]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".traveloptics_call_forth_the_dead_king]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".irons_spellbooks_ray_of_siphoning]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".traveloptics_blood_howl]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".irons_spellbooks_heartstop]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:blood".irons_spellbooks_wither_skull]
+		baseCooldownInSeconds = 0.0
+
+["irons_spellbooks:lightning"]
+
+	["irons_spellbooks:lightning".irons_spellbooks_ascension]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".traveloptics_magnetron_deployment]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".irons_spellbooks_shockwave]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".irons_spellbooks_electrocute]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".irons_spellbooks_lightning_bolt]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".irons_spellbooks_ball_lightning]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".traveloptics_rapid_laser]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".traveloptics_mechanized_predator]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".irons_spellbooks_chain_lightning]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".traveloptics_em_pulse]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".irons_spellbooks_thunder_step]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".irons_spellbooks_thunderstorm]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".irons_spellbooks_lightning_lance]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".traveloptics_death_laser]
+		baseCooldownInSeconds = 0.0
+
+	["irons_spellbooks:lightning".irons_spellbooks_charge]
+		baseCooldownInSeconds = 0.0
+

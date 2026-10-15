@@ -1,0 +1,3 @@
+#Spells which use the position infront of the player, should use Immersive Portals to prevent players from accidentally entering out of bounds.
+portalAwareSpellRaycasts = true
+

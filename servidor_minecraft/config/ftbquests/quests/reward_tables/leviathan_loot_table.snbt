@@ -1,0 +1,78 @@
+{
+	id: "5BB927487DEA267B"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 100, item: "irons_spellbooks:common_ink" }
+		{ count: 80, item: "irons_spellbooks:uncommon_ink", weight: 0.8f }
+		{ count: 60, item: "irons_spellbooks:rare_ink", weight: 0.6f }
+		{ count: 40, item: "irons_spellbooks:epic_ink", weight: 0.4f }
+		{ count: 20, item: "irons_spellbooks:legendary_ink", weight: 0.1f }
+		{ item: "cataclysm:abyssal_egg", weight: 0.1f }
+		{ item: "cataclysm:tidal_claws", weight: 0.1f }
+		{ item: "cataclysm:music_disc_the_leviathan", weight: 0.05f }
+		{ item: "traveloptics:abyssal_tentacle", weight: 0.1f }
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:abyssal_tidecaller"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:shadowed_miasma"
+							index: 0
+							level: 3
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+			weight: 0.05f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:cursed_minefield"
+							index: 0
+							level: 8
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:abyssal_blast"
+							index: 0
+							level: 3
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			weight: 0.05f
+		}
+	]
+	title: "Leviathan Loot Table"
+}

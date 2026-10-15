@@ -1,0 +1,751 @@
+{
+	autofocus_id: "5ECFC0C7EE5336B3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "primordial_caves"
+	group: ""
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "alexscaves:dinosaur_chop"
+	id: "515FC89C3B1B3BEB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the &lFourth Layer&r, the &lPrimordial Caves&r! "
+				""
+				"Here, you will have to watch your step, since you are surrounded by &ldangerous Dinosaurs&r looking for their next meal. "
+				""
+				"Take your time to explore this layer, since there is plenty to do and much to explore, with a &lgrand finale&r awaiting you!"
+			]
+			id: "5ECFC0C7EE5336B3"
+			invisible: true
+			subtitle: "Jurassic Park is Pretty Cool"
+			tasks: [{
+				dimension: "dimension_of_caves:cave"
+				icon: "alexscaves:dinosaur_chop"
+				id: "1EB4342FEE081C06"
+				title: "Primordial Caves"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5ECFC0C7EE5336B3"]
+			description: ["Head up to the large clusters of &lAmber&r on the &lRoof&r and mine as much as you can, this is an essential component to making the &lsummoning item&r for the &lFoe&r you'll need to face!"]
+			id: "3AFFD7B99B6E5573"
+			rewards: [{
+				id: "4061EF255AA3D0C1"
+				type: "xp"
+				xp: 70
+			}]
+			subtitle: "Obtain Amber Curiosities"
+			tasks: [{
+				id: "77814CDAA15DFE83"
+				item: "alexscaves:amber_curiosity"
+				type: "item"
+			}]
+			title: "Curioser and Curioser..."
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70F1EC76BCB3A9ED"]
+			description: ["Once you have defeated some of the &llarger dinosaurs&r in this layer, you will get their &lbones&r that you will need for the &lboss summoning item&r."]
+			id: "50EDA70C9A3568A2"
+			rewards: [{
+				id: "5B1AA00A5E3545F6"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Obtain Heavy Bones"
+			tasks: [{
+				id: "47CB0263EC581152"
+				item: "alexscaves:heavy_bone"
+				type: "item"
+			}]
+			title: "Big-Boned"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5ECFC0C7EE5336B3"]
+			description: ["This is one of the most &ldangerous dinosaurs&r you will encounter here, but it will drop &lHeavy Bones&r once it dies."]
+			icon: "alexscaves:tremorsaurus_egg"
+			id: "46EF96E0C2F49CB2"
+			optional: true
+			subtitle: "Defeat a Tremorsaurus"
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				id: "4DB00C40014C052D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "A Nasty Biter"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5ECFC0C7EE5336B3"]
+			description: ["These &lFeathery Giants&r are normally docile unless provoked, killing them gives you &lHeavy Bones&r."]
+			id: "70F1EC76BCB3A9ED"
+			optional: true
+			rewards: [{
+				id: "6FDF1B88910D4924"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Defeat a Relicherius"
+			tasks: [{
+				entity: "alexscaves:relicheirus"
+				icon: "alexsmobs:roadrunner_feather"
+				id: "382AED4C216892CA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "A Large, Feathery Friend"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5ECFC0C7EE5336B3"]
+			description: ["This &lrarer&r and much larger opponent is a heavy hitter, but will drop &lHeavy Bones&r on death."]
+			id: "34CF48EA82E8E72C"
+			optional: true
+			rewards: [{
+				id: "731C9FBE22FCBC3B"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Defeat an Atlatitan"
+			tasks: [{
+				entity: "alexscaves:atlatitan"
+				icon: "alexscaves:atlatitan_egg"
+				id: "6E8511B9C5B52919"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Towering Above"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"50EDA70C9A3568A2"
+				"3AFFD7B99B6E5573"
+			]
+			description: ["To fight the boss of this layer, the &lLuxtructosaurus&r, you will need to craft an &lOminous Catalyst&r and throw the &lOminous Catalyst&r into a &lVolcano&r."]
+			id: "7D7C69F1201AF0A1"
+			rewards: [{
+				id: "1C3143D64FBA98F9"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Craft an Ominous Catalyst"
+			tasks: [{
+				id: "52FE19B6E0FD5CB1"
+				item: "alexscaves:ominous_catalyst"
+				type: "item"
+			}]
+			title: "An Ominous Catalyst"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7D7C69F1201AF0A1"]
+			description: [
+				"Dormant in the pit of a Volcano, lying in rest, waiting to be awakened, waiting to walk a path of Fire and Extinction in its wake. "
+				""
+				"By defeating the &lLuxtructosaurus&r, you will gain access to &lTectonic Shards&r, the tectonic set and the &lAbyssal Tectonic Pickaxe&r."
+			]
+			id: "6581B4BA71D5C7F3"
+			rewards: [
+				{
+					id: "18CA6D801D8DAA28"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "640E799C8E038CE9"
+					table_id: 647972841681908004L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4984F2F21540A853"
+					table_id: 3161796620666114944L
+					type: "choice"
+				}
+			]
+			subtitle: "Defeat a Luxtructosaurus"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: {
+					Count: 1
+					id: "traveloptics:gauntlet_of_extinction"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:extinction"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "73DF42A17E83E815"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Extinction"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6581B4BA71D5C7F3"]
+			description: [
+				"By defeating the &lLuxtructosaurus&r, you get &lTectonic Shards&r. "
+				""
+				"Tectonic Shards can be used in many different recipes, including new &larmour&r, &lweapons&r and a way to escape."
+			]
+			id: "5C85ADFFA29C79E3"
+			rewards: [{
+				id: "038CF8F7C630E3DE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Obtain Tectonic Shards"
+			tasks: [{
+				id: "40B6EB46D6A7B91E"
+				item: "alexscaves:tectonic_shard"
+				type: "item"
+			}]
+			title: "A Chunk of the World"
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5ECFC0C7EE5336B3"]
+			description: ["To craft the &lAbyssal Tectonic Pickaxe&r, you will need to craft a &lLimestone Spear&r for an &lExtinction Spear&r."]
+			id: "1ECE21FA99FB6F11"
+			rewards: [{
+				id: "228B77975D30F8CA"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "Craft a Limestone Spear"
+			tasks: [{
+				id: "399485FA54EB2366"
+				item: "alexscaves:limestone_spear"
+				type: "item"
+			}]
+			title: "Pointy"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5C85ADFFA29C79E3"
+				"1ECE21FA99FB6F11"
+			]
+			description: ["The &lExtinction Spear&r is an essential component for crafting the &lAbyssal Tectonic Pickaxe&r."]
+			id: "1A5D4C373160CE41"
+			rewards: [{
+				id: "39EB782A5CBF7C33"
+				type: "xp"
+				xp: 65
+			}]
+			subtitle: "Craft an Extinction Spear"
+			tasks: [{
+				id: "2695DD69C855785B"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Power of Extinction"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5ECFC0C7EE5336B3"]
+			description: [
+				"You're free from the &lPrimordial Caves&r! "
+				""
+				"Now, you will come face to face with a deep and unforgiving &lOcean&r, with &lGiant Sea Creatures&r, &lSunken Monuments&r and a new, &llarge threat&r..."
+			]
+			id: "5BA22D61F0667E91"
+			rewards: [{
+				id: "7858F04C13EBF627"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Enter the Ocean"
+			tasks: [{
+				dimension: "oceanworld:deepsea"
+				id: "6CE8226B964351B5"
+				type: "dimension"
+			}]
+			title: "Skinny Dipping"
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5ECFC0C7EE5336B3"]
+			description: ["This herbivorous dinosaur won't hurt you unless provoked, it will drop &lTough Hide&r when killed which is needed for the &lTectonic Armour&r."]
+			id: "20AB15CBCD28E0E4"
+			optional: true
+			rewards: [{
+				id: "72796CAA6BF675C1"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Defeat a Grottoceratops"
+			tasks: [{
+				entity: "alexscaves:grottoceratops"
+				icon: "alexscaves:grottoceratops_egg"
+				id: "6B25D40B1AE1BCF8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Thick-Skinned Herbivore"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20AB15CBCD28E0E4"]
+			description: ["To make the &lTectonic Set&r, you will need to get &lTough Hide&r and a few other components."]
+			id: "139F7BB6EA0AA762"
+			optional: true
+			rewards: [{
+				id: "29320BAB190DE496"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Obtain Tough Hide"
+			tasks: [{
+				id: "0F1156C0652D7677"
+				item: "alexscaves:tough_hide"
+				type: "item"
+			}]
+			title: "A Strong Hide"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EB4342FEE081C06"]
+			description: ["There are multiple ways to get &lNature Runes&r, such as collecting &lPoisonous Potatoes&r and crafting them, or taking them from &lApothecarists&r after you defeat them."]
+			id: "57EF47964AAE2F44"
+			optional: true
+			rewards: [{
+				id: "5A49A65AF5849502"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "Obtain a Nature Rune"
+			tasks: [{
+				id: "6D91799EDE3065BF"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			title: "A Magical Rune of Nature"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EB4342FEE081C06"]
+			description: ["&lArcane Cloth&r will be required to make the &lTectonic Set&r."]
+			id: "7EF0992F55A66A49"
+			optional: true
+			rewards: [{
+				id: "464891353425C434"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Craft Arcane Cloth"
+			tasks: [{
+				id: "611157EDF3B4D908"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			title: "Magical Cloth"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"57EF47964AAE2F44"
+				"139F7BB6EA0AA762"
+				"7EF0992F55A66A49"
+				"50EDA70C9A3568A2"
+			]
+			description: ["The &lPrimordial Set&r is the base for the &lTectonic Set&r, but is still a pretty good base armour set."]
+			id: "4B0CC09AF83C20BB"
+			optional: true
+			rewards: [{
+				id: "09469F904CABCF62"
+				type: "xp"
+				xp: 90
+			}]
+			subtitle: "Craft the Primordial Set"
+			tasks: [
+				{
+					id: "65FE4191E3B9EC5F"
+					item: {
+						Count: 1
+						id: "traveloptics:primordial_crest_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D5F01F5BE4F3ACB"
+					item: {
+						Count: 1
+						id: "traveloptics:primordial_crest_armor_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DCB1F8D5BCB9514"
+					item: {
+						Count: 1
+						id: "traveloptics:primordial_crest_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B460A3844048829"
+					item: {
+						Count: 1
+						id: "traveloptics:primordial_crest_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Prehistoric Armour"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1EB4342FEE081C06"]
+			description: ["&lTectonic Smithing Templates&r will be required to upgrade the &lPrimordial Set&r up to the &lTectonic Set&r."]
+			id: "093F74C46BA674FF"
+			optional: true
+			rewards: [{
+				id: "28907057F9FB65AD"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "Craft Tectonic Smithing Templates"
+			tasks: [{
+				id: "1C944C173904DCD5"
+				item: "traveloptics:tectonic_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Heating Up the Forge"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C85ADFFA29C79E3"]
+			description: ["To Upgrade the &lPrimordial Set&r into the &lTectonic Set&r, you will need &lTectonic Bars&r."]
+			id: "24A95FDA9A411D75"
+			optional: true
+			rewards: [{
+				id: "405D303700E700F8"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "Craft a Tectonic Ingot"
+			tasks: [{
+				id: "2DC1FD774F2007CB"
+				item: "traveloptics:tectonic_ingot"
+				type: "item"
+			}]
+			title: "An Earthen Metal"
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"093F74C46BA674FF"
+				"4B0CC09AF83C20BB"
+				"24A95FDA9A411D75"
+			]
+			description: ["The &lTectonic Armour Set&r is one of the best sets in the game, giving superb &ldefence&r while also granting plentiful &lmana&r to use."]
+			id: "4D05E31C2EECFF45"
+			optional: true
+			rewards: [{
+				id: "2B795C1F80E1EA70"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "Craft a Tectonic Set"
+			tasks: [
+				{
+					id: "0DC8613E40C35EA7"
+					item: {
+						Count: 1
+						id: "traveloptics:tectonic_crest_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72DA43AFB65E958A"
+					item: {
+						Count: 1
+						id: "traveloptics:tectonic_crest_armor_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0542406819161FF0"
+					item: {
+						Count: 1
+						id: "traveloptics:tectonic_crest_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BEB6800AB423264"
+					item: {
+						Count: 1
+						id: "traveloptics:tectonic_crest_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Infused with Extinction"
+			x: 7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EB4342FEE081C06"]
+			description: [
+				"The &lToxic Caves&r are home to many dangerous entities, hazardous structures and a lot of radiation. "
+				""
+				"You can find some interesting loot here and a very powerful spell."
+			]
+			id: "2137961466A87549"
+			optional: true
+			rewards: [{
+				id: "1B7951845F66B000"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Find the Toxic Caves"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: "alexscaves:waste_drum"
+				id: "0A50453F53D132DF"
+				optional_task: true
+				type: "biome"
+			}]
+			title: "Radioactive Ruins"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1EB4342FEE081C06"]
+			description: ["The &lMagnetic Caves&r are filled with dangerous enemies and some pretty cool loot to find."]
+			id: "580B05F8C12416C7"
+			optional: true
+			rewards: [{
+				id: "538A730E880525D0"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Find the Magnetic Caves"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: "alexscaves:scarlet_magnet"
+				id: "660946CB289E154C"
+				optional_task: true
+				type: "biome"
+			}]
+			title: "Magnetism"
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1EB4342FEE081C06"]
+			description: ["This item is only accessible by reaching the &l5th Layer&r, and is obtained from &lHullbreakers&r."]
+			id: "51C8EEF76B19FAA3"
+			optional: true
+			rewards: [{
+				id: "1CBDE7FC3195D277"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "Obtain an Immortal Embryo"
+			tasks: [{
+				id: "71FEA2EF72A6FA2D"
+				item: "alexscaves:immortal_embryo"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5C85ADFFA29C79E3"
+				"51C8EEF76B19FAA3"
+				"637C1B33D309AD4C"
+			]
+			description: ["&lTremorzilla&r is a radioactive dinosaur that you can tame as a pet, you just need something a little explosive to wake it up..."]
+			id: "375D6CA474E51A43"
+			optional: true
+			rewards: [{
+				id: "1507E8E5DF892E94"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Craft a Tremorzilla Egg"
+			tasks: [{
+				id: "70B502AFF3B3B741"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "A Radioactive Surprise"
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1EB4342FEE081C06"]
+			description: ["You just robbed a mother dinosaur of its egg... But at least you get to make an even cooler dinosaur!"]
+			id: "637C1B33D309AD4C"
+			optional: true
+			rewards: [{
+				id: "31E860E2E9F86DD2"
+				type: "xp"
+				xp: 70
+			}]
+			subtitle: "Obtain a Tremorsaurus Egg"
+			tasks: [{
+				id: "188F2A6966E63015"
+				item: "alexscaves:tremorsaurus_egg"
+				type: "item"
+			}]
+			title: "Stealing an Egg"
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EB4342FEE081C06"]
+			description: ["Not much else can really be said about this one other than yes, you are making a nuke and yes, you should stand far back..."]
+			id: "7A4B286CF018639B"
+			optional: true
+			rewards: [{
+				id: "7944DA809C66189A"
+				type: "xp"
+				xp: 85
+			}]
+			subtitle: "Craft a Nuclear Bomb"
+			tasks: [{
+				id: "67FD1A03EBACFFA4"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "Blockenheimer"
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"375D6CA474E51A43"
+				"7A4B286CF018639B"
+			]
+			description: ["You now have a &lBaby Tremorzilla&r that you can &ltame&r, once it grows up, you can ride it, fight with it, or you can kill it for an &litem&r you need to get a cool &lSceptre&r."]
+			id: "360EB671648C1FDA"
+			optional: true
+			rewards: [{
+				id: "2FD630F800870CC7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Hatch a Tremorzilla"
+			tasks: [{
+				icon: "alexscaves:block_of_uranium"
+				id: "1D22F0A57C56EA9D"
+				observe_type: 5
+				optional_task: true
+				timer: 0L
+				to_observe: "alexscaves:tremorzilla"
+				type: "observation"
+			}]
+			title: "Tremorzilla!"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["360EB671648C1FDA"]
+			description: ["By defeating a &lTremorzilla&r, you will get a &lTremor Core&r, which you can use to get a &lTitan Lord Scepter&r from &lRight Clicking&r a &lTamed Baby Tremorzilla&r with the &lTremor Core&r."]
+			id: "0D97360CC0D784EC"
+			optional: true
+			rewards: [{
+				id: "0D57794674466FD1"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "Defeat a Tremorzilla"
+			tasks: [{
+				id: "121EC318DC50A555"
+				item: "traveloptics:tremor_core"
+				type: "item"
+			}]
+			title: "The Heart of Radiation"
+			x: 6.5d
+			y: -12.5d
+		}
+	]
+	title: "Primordial Caves"
+}

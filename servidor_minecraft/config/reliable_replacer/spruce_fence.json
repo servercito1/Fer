@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "minecraft:spruce_fence"
+  ],
+  "output": "undergarden:wigglewood_fence",
+
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "probability": 1.0,
+  "retrogen": true,
+  "player_blocks": false,
+  "keep_states": true
+}

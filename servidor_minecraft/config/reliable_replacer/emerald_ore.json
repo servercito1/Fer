@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "minecraft:emerald_ore"
+  ],
+  "output": "kubejs:depthrock_emerald_ore",
+
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "probability": 1.0,
+  "retrogen": true,
+  "player_blocks": false,
+  "keep_states": true
+}

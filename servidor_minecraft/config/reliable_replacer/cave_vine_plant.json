@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "minecraft:cave_vines_plant"
+  ],
+  "output": "undergarden:droopvine_plant",
+
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "probability": 1.0,
+  "retrogen": true,
+  "player_blocks": false,
+  "keep_states": true
+}

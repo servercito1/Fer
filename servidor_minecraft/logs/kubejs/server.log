@@ -1,0 +1,54 @@
+[14:42:50] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[14:42:50] [INIT] Loaded plugins:
+[14:42:50] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:42:50] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[14:42:50] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[14:42:50] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[14:42:50] [INIT] - com.almostreliable.morejs.Plugin
+[14:42:50] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[14:42:50] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[14:42:50] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[14:42:50] [INIT] - com.probejs.ProbeJSPlugin
+[14:42:51] [INFO] Loaded script server_scripts:aetherthing.js in 0.003 s
+[14:42:51] [INFO] Loaded script server_scripts:artifactgamerules.js in 0.001 s
+[14:42:51] [INFO] Loaded script server_scripts:ore_drops.js in 0.003 s
+[14:42:51] [INFO] Loaded script server_scripts:enchantments.js in 0.001 s
+[14:42:51] [INFO] Loaded script server_scripts:sophisticatedbackpacks.js in 0.001 s
+[14:42:51] [INFO] Loaded script server_scripts:depth_resistance.js in 0.001 s
+[14:42:51] [INFO] Loaded script server_scripts:remove_recipes.js in 0.002 s
+[14:42:51] [INFO] Loaded script server_scripts:recipes.js in 0.015 s
+[14:42:51] [INFO] Loaded script server_scripts:entity_loot.js in 0.001 s
+[14:42:51] [INFO] Loaded script server_scripts:wardentweak.js in 0.004 s
+[14:42:51] [INFO] Loaded script server_scripts:itemfilter.js in 0.002 s
+[14:42:51] [INFO] Loaded 11/11 KubeJS server scripts in 0.052 s with 0 errors and 0 warnings
+[14:42:51] [INFO] Scripts loaded
+[14:42:51] [INFO] Initializing recipe event...
+[14:42:53] [INFO] [minecraft:block] Found 818 tags, added 17 objects, removed 0 objects
+[14:42:58] [INFO] Processing recipes...
+[14:42:58] [WARN] Failed to parse recipe 'bygonenether:stonecutting/withered_blackstone_vertical_slab_from_withered_blackstone_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'deeperdarker:resonarium_pickaxe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'deeperdarker:resonarium_hoe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'bygonenether:stonecutting/cracked_withered_blackstone_vertical_slab_from_cracked_withered_blackstone_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'deeperdarker:resonarium_leggings_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'traveloptics:augment_bruteforce_legendary[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'cataclysm:stonecutting/azure_seastone_brick_stair_from_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'netherdungeons:stonecutting/netherrack_pillar_from_netherrack[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'bygonenether:stonecutting/warped_nether_brick_vertical_slab_from_warped_nether_bricks_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'deeperdarker:resonarium_sword_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'deeperdarker:resonarium_helmet_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'deeperdarker:resonarium_chestplate_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'deeperdarker:resonarium_shovel_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'deeperdarker:resonarium_axe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'deeperdarker:resonarium_boots_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'netherexp:stonecutting/from_pale_soul_slate/indented[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'seadwellers:depth_helmet[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:42:58] [WARN] Failed to parse recipe 'shieldexp:griefer_shield[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:42:58] [INFO] Found 7348 recipes in 178.9 ms
+[14:42:59] [INFO] Posted recipe events in 808.5 ms
+[14:42:59] [WARN] Error parsing recipe farmersrespite:chilidog_alt[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersrespite:blazing_chili"},{"item":"mynethersdelight:hotdog"},{"item":"mynethersdelight:hotdog"}],"result":{"count":2,"item":"mynethersdelight:chilidog"}}: Unknown item 'farmersrespite:blazing_chili'
+[14:42:59] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: Unknown item 'amfd:singular_cooked_moose_rib'
+[14:42:59] [WARN] Error parsing recipe netherdungeons:crafting/chiseled_polished_gilded_blackstone[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "],"key":{},"result":{"item":"netherdungeons:chiseled_polished_gilded_blackstone","count":1}}: Index 0 out of bounds for length 0
+[14:42:59] [WARN] Error parsing recipe minecraft:kjs/stonecutter[kubejs:shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"minecraft:stonecutter","count":1},"pattern":["   "," B","AAA"],"key":{"A":{"tag":"forge:cobblestone"},"B":{"item":"undergarden:cloggrum_ingot"}}}: Invalid pattern: each row must be the same width
+[14:42:59] [WARN] Error parsing recipe minecraft:kjs/irons_spellbooks_divine_pearl_2[kubejs:shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"irons_spellbooks:divine_pearl","count":1},"pattern":["DCB","CAC","BCD"],"key":{"A":{"item":"undergarden:regalium_crystal"},"B":{"item":"irons_spellbooks:arcane_essence"}}}: Pattern references symbol 'D' but it's not defined in the key
+[14:42:59] [INFO] Added 99 recipes, removed 14 recipes, modified 239 recipes, with 5 failed recipes in 90.46 ms
+[14:43:04] [INFO] Server resource reload complete!

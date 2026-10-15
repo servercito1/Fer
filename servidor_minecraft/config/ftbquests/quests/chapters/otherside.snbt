@@ -1,0 +1,325 @@
+{
+	autofocus_id: "27F351EBE386FFA2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "otherside"
+	group: ""
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:sculk"
+	id: "3E65CD7A59C480CE"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the &lSixth Layer&r, the &lOtherside&r! "
+				""
+				"Here, you will have to sneak around and make sure not to be &lloud&r, or some &lunwanted company&r will arrive. "
+				""
+				"Take your time to explore this layer, since there is plenty to do and much to explore!"
+			]
+			id: "27F351EBE386FFA2"
+			invisible: true
+			subtitle: "Be very quiet..."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "minecraft:sculk"
+				id: "57CC2D4F387EC31C"
+				type: "dimension"
+			}]
+			title: "Otherside"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27F351EBE386FFA2"]
+			description: ["You will need to find an &lAncient Temple&r to obtain &lEcho Shards&r, which are needed for &lReinforced Echo Shards&r."]
+			id: "739A8BFA0CB20203"
+			rewards: [{
+				id: "4678ACDB365D8D6B"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "Find an Ancient Temple"
+			tasks: [{
+				icon: "deeperdarker:sculk_stone_bricks"
+				id: "0049CAF5B66179D2"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			title: "A Desecrated Temple"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["739A8BFA0CB20203"]
+			description: ["&lEcho Shards&r are required to craft &lReinforced Echo Shards&r."]
+			id: "48F7EB4503996C4E"
+			rewards: [{
+				id: "60671DEB3A20C5DC"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Obtain an Echo Shard"
+			tasks: [{
+				id: "50B84A5F8DC588ED"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			title: "A Shard of an Echoed Past"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27F351EBE386FFA2"]
+			description: ["To get &lPhantom Membranes&r for the &lReinforced Echo Shards&r, you will need to kill a &lPhantom&r, so remember not to &lSleep&r."]
+			id: "7F0321F549CE320D"
+			rewards: [{
+				id: "129E6548573427B7"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Defeat a Phantom"
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: "celestial_core:soaring_wings"
+				id: "789852E6F04091DC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Flying Menace"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F0321F549CE320D"]
+			description: ["To craft the &lReinforced Echo Shards&r, you will need to collect &lPhantom Membranes&r."]
+			id: "191543B05F9DA2F7"
+			rewards: [{
+				id: "22D5E2964C3A9EB1"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Obtain Phantom Membrane"
+			tasks: [{
+				id: "2050D0DC48FBD9A7"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"191543B05F9DA2F7"
+				"48F7EB4503996C4E"
+				"4CBB56F4B4209225"
+			]
+			description: ["To craft the &lTectonic Abyssal Pickaxe&r, you will need to craft a &lReinforced Echo Shard&r for one of its components."]
+			id: "14D43FAD1B0FB654"
+			rewards: [{
+				id: "5425240808850C84"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Craft a Reinforced Echo Shard"
+			tasks: [{
+				id: "07E4E3358111D2A2"
+				item: "deeperdarker:reinforced_echo_shard"
+				type: "item"
+			}]
+			title: "Encased Echoes"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27F351EBE386FFA2"]
+			description: [
+				"Don't make a sound, or it will be summoned through shrieking wails. "
+				"If it arrives, do not scream, or it will anger the beast into a frenzied rage, where you will struggle for survival. "
+				""
+				"By defeating the &lWarden&r, not only will it drop the &lWarden Carapace&r needed for the &lReinforced Echo Shard&r, but it was also drop the &lWarden Sclerite&r, which is needed for the &lTectonic Abyssal Pickaxe&r."
+			]
+			icon: "minecraft:sculk_shrieker"
+			id: "507BE24D21EE778B"
+			rewards: [
+				{
+					id: "1A2B34548D1F9B9D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6E53F6129839A104"
+					item: "irons_spellbooks:ancient_knowledge_fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat a Warden"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "59DFAD1A2FAFB687"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Don't Make a Sound"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["507BE24D21EE778B"]
+			description: ["In order to make &lReinforced Echo Shards&r, you will need to gether &lWarden Carapace&r."]
+			id: "4CBB56F4B4209225"
+			rewards: [{
+				id: "715B9A1D72B09A9C"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Obtain Warden Carapace"
+			tasks: [{
+				id: "7A43235C26B69FCD"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
+			title: "A Warden's Hide"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["507BE24D21EE778B"]
+			description: ["In order to make the &lTectonic Abyssal Pickaxe&r, you will need to get a &lWarden Sclerite&r."]
+			id: "3191BBA37891507E"
+			rewards: [{
+				id: "293B49CCAE0E8745"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Obtain a Warden Sclerite"
+			tasks: [{
+				id: "5173D816B20FAD4D"
+				item: "celestial_core:warden_sclerite"
+				type: "item"
+			}]
+			title: "A Warden's Defence"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3191BBA37891507E"
+				"14D43FAD1B0FB654"
+			]
+			description: [
+				"You now have the tool to escape to the &lOverworld&r! "
+				""
+				"This is the final preparation for escaping the &lAbyss&r, now all you need to do is mine straight up!"
+			]
+			id: "6F9F480D96ED8A84"
+			rewards: [{
+				id: "2348B4892021D796"
+				type: "xp"
+				xp: 70
+			}]
+			subtitle: "Craft a Tectonic Abyssal Pickaxe"
+			tasks: [{
+				id: "615F7AD0957612D5"
+				item: {
+					Count: 1
+					id: "kubejs:tectonic_abyssal_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A Way to the Overworld"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F9F480D96ED8A84"]
+			description: ["You're free from the &lOtherside&r! Now, you just need to keep mining straight up and you will be free from the &lAbyss&r!"]
+			id: "5DDDA50BF71AECD1"
+			rewards: [{
+				id: "5978E4C9C3F222BD"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "Enter the Caverns"
+			tasks: [{
+				dimension: "infinite_abyss:first_layer"
+				id: "5910303E12B805D5"
+				type: "dimension"
+			}]
+			title: "The Final Layer..."
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["507BE24D21EE778B"]
+			description: ["Abyssal Spells vary in their combat efficiency, but not in utility, unlock them with multiple of this manuscript."]
+			id: "46838CCA21289C2B"
+			subtitle: "Learn Eldritch Spells"
+			tasks: [{
+				id: "58888674CC6D93D5"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			title: "Forbidden Knowledge"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["507BE24D21EE778B"]
+			description: [
+				"Don't make a sound, or it will be summoned through shrieking wails. "
+				"If it arrives, do not scream, or it will anger the beast into a frenzied rage, where you will struggle for survival. But... you knew this would happen, didn't you?"
+				""
+				"By defeating the &lWarden&r, not only will it drop the &lWarden Carapace&r needed for the &lReinforced Echo Shard&r, but it was also drop the &lWarden Sclerite&r, which is needed for the &lTectonic Abyssal Pickaxe&r."
+			]
+			icon: "minecraft:sculk_shrieker"
+			id: "1737931164B23C7D"
+			optional: true
+			rewards: [
+				{
+					id: "27DB2BBDEE4B2322"
+					type: "xp"
+					xp: 70
+				}
+				{
+					count: 2
+					id: "5A2DB67122E67A06"
+					item: "irons_spellbooks:ancient_knowledge_fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat a Warden... again"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3E699374D283C313"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Silence is Key"
+			x: 1.0d
+			y: 0.5d
+		}
+	]
+	title: "Otherside"
+}

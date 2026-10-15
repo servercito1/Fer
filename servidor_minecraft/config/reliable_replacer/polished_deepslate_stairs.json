@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "minecraft:polished_deepslate_stairs"
+  ],
+  "output": "undergarden:shiverstone_brick_stairs",
+
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "probability": 1.0,
+  "retrogen": true,
+  "player_blocks": false,
+  "keep_states": true
+}

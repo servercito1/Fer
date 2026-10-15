@@ -1,0 +1,17 @@
+#The starting setting, for players who have not used /aa locator team <disable|dot-only|enable>, for sharing dots with their teammates.
+#DISABLE: no dots. DOT_ONLY: dots without names. ENABLE: dots with names (holding TAB)
+#Teams are FTB Teams parties.
+#Allowed Values: DISABLE, DOT_ONLY, ENABLE
+locatorTeamDefault = "ENABLE"
+#The starting setting, for players who have not used /aa locator global <disable|dot-only|enable> this is for sharing dots with everyone who is not a teammate.
+#This only applies to players who are not in a team; a player in a team starts hidden from (and unable to see) everyone outside it until they choose a global setting.
+#Two players share the more private of their two settings, so a dot only shows if both allow it, and a name only if both are on ENABLE.
+#Allowed Values: DISABLE, DOT_ONLY, ENABLE
+locatorGlobalDefault = "ENABLE"
+#How often in ticks, players are sent the positions of the other players.
+#Range: 1 ~ 200
+locatorUpdateIntervalTicks = 10
+#Show usernames beside the dots on the depth bar while TAB is held.
+#When false the server never sends usernames to clients, whatever players choose: they only receive each visible player's dimension, height and dot colour.
+locatorShowNames = true
+

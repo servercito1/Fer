@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "minecraft:mangrove_trapdoor"
+  ],
+  "output": "undergarden:smogstem_trapdoor",
+
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "probability": 1.0,
+  "retrogen": true,
+  "player_blocks": false,
+  "keep_states": true
+}

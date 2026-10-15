@@ -1,0 +1,55 @@
+{
+  "weight": 2,
+  "reforge_experience_cost": 3,
+  "reforge_durability_cost": 2,
+  "reforge_item": "tiered:weaponsmiths_hammer",
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "unionlib:generic.critical_rate",
+      "modifier": {
+        "id": "tiered:deadly",
+        "operation": "ADDITION",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "id": "tiered:deadly",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.13
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "id": "tiered:deadly",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.13
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_knockback",
+      "modifier": {
+        "id": "tiered:deadly",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.13
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

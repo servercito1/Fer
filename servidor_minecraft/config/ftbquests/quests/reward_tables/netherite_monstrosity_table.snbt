@@ -1,0 +1,46 @@
+{
+	id: "59345D6BF59EC741"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 40, item: "irons_spellbooks:common_ink" }
+		{ count: 30, item: "irons_spellbooks:uncommon_ink", weight: 0.8f }
+		{ count: 20, item: "irons_spellbooks:rare_ink", weight: 0.6f }
+		{ count: 15, item: "irons_spellbooks:epic_ink", weight: 0.4f }
+		{ count: 10, item: "irons_spellbooks:legendary_ink", weight: 0.2f }
+		{
+			item: {
+				Count: 1
+				id: "traveloptics:infernal_devastator"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:gyro_slash"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+			weight: 0.05f
+		}
+		{ item: "cataclysm:music_disc_netherite_monstrosity", weight: 0.1f }
+		{ item: "cataclysm:monstrous_horn", weight: 0.1f }
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+	]
+	title: "Netherite Monstrosity Loot Table"
+}

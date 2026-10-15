@@ -1,0 +1,20 @@
+{
+	id: "2BE0F5464AD59380"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "traveloptics:augment_volcana_blessed" }
+		{ item: "traveloptics:augment_balance_blessed" }
+		{ item: "traveloptics:augment_bruteforce_blessed" }
+		{ item: "traveloptics:augment_chaos_blessed" }
+		{ item: "traveloptics:augment_equilibrium_blessed" }
+		{ item: "traveloptics:augment_frigid_flame_blessed" }
+		{ item: "traveloptics:augment_lifedrain_blessed" }
+		{ item: "traveloptics:augment_oblivion_blessed" }
+		{ item: "traveloptics:augment_refreshment_blessed" }
+		{ item: "traveloptics:augment_riftcore_blessed" }
+		{ item: "traveloptics:augment_sacred_void_blessed" }
+		{ item: "traveloptics:augment_thunderbolt_blessed" }
+	]
+	title: "Augments"
+}

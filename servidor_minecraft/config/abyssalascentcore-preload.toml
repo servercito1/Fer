@@ -1,0 +1,16 @@
+#Load the chunks for the player where a high velocity player is about to enter the next dimension of a dimension stack.
+preloadEnabled = true
+#Vertical speed in blocks per tick above which the player's movement is used to look ahead
+#Range: 0.05 ~ 8.0
+preloadMinVerticalSpeed = 0.5
+#How many ticks ahead the player's current velocity is projected.
+#Range: 5 ~ 200
+preloadLookaheadTicks = 40
+#Radius in chunks loaded around the point where the player is expected to enter each dimension.
+#Range: 1 ~ 8
+preloadRadiusChunks = 3
+#While falling or rising fast (above preloadMinVerticalSpeed), the smallest radius in chunks loaded on the far side of a dimension stack portal.
+#Immersive Portals normally loads only about 2 chunks there until you are close, which is too little for the far dimension to be ready by the time a fast fall reaches it. Slower movement is not affected.
+#Range: 2 ~ 16
+preloadFastFallMinRadius = 6
+

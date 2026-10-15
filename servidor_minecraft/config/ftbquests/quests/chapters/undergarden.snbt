@@ -1,0 +1,1093 @@
+{
+	autofocus_id: "167A537B043A5E1D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "undergarden"
+	group: ""
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "undergarden:deepturf_block"
+	id: "60F5E1E7CEC7F511"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["167A537B043A5E1D"]
+			description: [
+				"It's time to begin your adventure and mining to the surface! "
+				""
+				"Head outside, gather some &lWood&r and &lDepthrock&r to make yourself a &lstone pickaxe&r!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "68662B4D3982FC17"
+			rewards: [{
+				id: "27CA406F962C11CC"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Make a Stone Pickaxe"
+			tasks: [{
+				id: "7F47F2ACEFDD2D27"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Getting Started!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68662B4D3982FC17"]
+			description: [
+				"You'll need some protection against the Undergarden enemies! "
+				""
+				"It's time to start upgrading your  &larmour&r, &lweapons&r and your &lpickaxe&r. "
+				""
+				"Go and try to find some &lCloggrum&r, the equivalent of iron within the Undergarden!"
+			]
+			hide_until_deps_complete: true
+			id: "031279D80C7480B6"
+			rewards: [{
+				id: "6DA7EB6E85CC7DA6"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "It's just like iron!"
+			tasks: [{
+				count: 5L
+				id: "6081A843F8CA96AF"
+				item: "undergarden:raw_cloggrum"
+				type: "item"
+			}]
+			title: "Make some upgrades!"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["031279D80C7480B6"]
+			description: [
+				"Now that you have your &lCloggrum&r, it's time to make some &ltools&r to use! "
+				""
+				"Make yourself a &lsword&r for surviving against the dangerous enemies, and a &lpickaxe&r to mine some of the harder ores!"
+			]
+			id: "2D133859924ADFB7"
+			rewards: [{
+				id: "4C3E74AC5ABD87D5"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "You'll need these..."
+			tasks: [
+				{
+					id: "3632F461CD87BD3F"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A9A74AFBD0A58C7"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tools for survival!"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["031279D80C7480B6"]
+			description: ["For an extra layer of defence, why not make yourself some &lCloggrum Armour&r! "]
+			id: "7796732340C46BC7"
+			optional: true
+			require_sequential_tasks: false
+			rewards: [{
+				id: "314BBE674A64E7C2"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Make an armour set!"
+			tasks: [
+				{
+					id: "342CEEB90CEEDB52"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "146BD8D5E680F870"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17D3BF49DC299168"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AFBE3ED75015CDC"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Some extra defence!"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Time to mine some &lUtherium&r! A &lUtherium Pickaxe&r is necessary to being able to escape the Undergarden. "
+				""
+				"Make sure to collect plenty, since this armour set can help you out a lot in the next layer!"
+			]
+			id: "74D1BACAF23A9907"
+			rewards: [{
+				id: "07FB93E4B4F55D2E"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Gather up some Utherium"
+			tasks: [{
+				id: "375A6871CFFF940A"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			title: "Better than Diamonds!"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["74D1BACAF23A9907"]
+			description: [
+				"Time to make a &lUtherium Pickaxe&r! "
+				""
+				"A &lUtherium Pickaxe&r is the first major step to making your way out of the Undergarden, you can now mine &lArcane Debris&r! "
+				""
+				"Don't forget to make yourself some &lUtherium Armour&r and a &lUtherium Weapon&r, since they can help you in the next layer!"
+			]
+			hide_until_deps_complete: true
+			id: "4271754729097AFE"
+			rewards: [{
+				id: "1BD909B4AE997017"
+				type: "xp"
+				xp: 70
+			}]
+			subtitle: "The first step to freedom!"
+			tasks: [{
+				id: "3D7722A4C1950176"
+				item: {
+					Count: 1
+					id: "undergarden:utherium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Almost there!"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			description: [
+				"The &lCatacombs&r is a structure that contains &lplentiful loot&r for you to use, however, there are many &ldangers&r lurking within! "
+				""
+				"Make sure to stay safe and keep your wits about you, since you can easily get lost or die here!"
+			]
+			id: "0E8D089C7CA35E51"
+			rewards: [{
+				id: "67F5D4AF15EF7D8D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Delve into the Catacombs!"
+			tasks: [{
+				icon: "undergarden:depthrock_bricks"
+				id: "739375DE3C67BC09"
+				structure: "undergarden:catacombs"
+				title: "Find the Catacombs!"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			description: [
+				"It's time for you to mine the first ingredient for the &lArcane Steel Pickaxe&r! "
+				""
+				"By gathering this alloy, you can now start to progress towards making your way out of the Undergarden and into the next layer!"
+			]
+			hide_until_deps_complete: true
+			id: "100632BA3126CF0E"
+			subtitle: "The first piece of the Arcane Steel Pickaxe!"
+			tasks: [{
+				id: "7636A9D365002C77"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			title: "Mine some Arcane Debris!"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["74D1BACAF23A9907"]
+			description: ["To help you in the next layer, make sure to craft yourself some &lUtherium Armour&r and &lUtherium Weapons&r!"]
+			hide_until_deps_complete: true
+			id: "291FCE32FE2735AC"
+			optional: true
+			require_sequential_tasks: false
+			rewards: [{
+				id: "591D08B45E032EF4"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Make the Utherium Armour Set"
+			tasks: [
+				{
+					id: "047C23139C45D478"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CEE1839CF8440DD"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75A8AD3103E36A65"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424BFC3809AC7AFB"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tougher than a Diamond"
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["100632BA3126CF0E"]
+			description: ["Make sure to smelt down your &lArcane Debris&r, this lets you gain the material to craft the &lArcane Steel Pickaxe&r!"]
+			hide_until_deps_complete: true
+			id: "6C404C77FED32E9D"
+			rewards: [{
+				id: "0626AFBEA4EED81F"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Refining your materials"
+			tasks: [{
+				id: "55F063C1924A4E7B"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			title: "Smelt the Debris!"
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			description: ["An essential part to the &lArcane Steel Pickaxe&r is a &lFroststeel Pickaxe&r, so make sure to gather plenty of &lFroststeel&r to craft one!"]
+			id: "55CD93EF4B1005BC"
+			rewards: [{
+				id: "31E4130B307F3E4F"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Gather some Frosteel Ingots"
+			tasks: [{
+				id: "49C2F53236E896FF"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			title: "Getting Frosty"
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["55CD93EF4B1005BC"]
+			description: ["To make the &lArcane Steel Pickaxe&r and progress to the next layer, you'll need to make yourself a &lFroststeel Pickaxe&r! "]
+			hide_until_deps_complete: true
+			id: "2B14EE626AC43CF2"
+			rewards: [{
+				id: "4832E3496639E80B"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "Craft a Froststeel Pickaxe!"
+			tasks: [{
+				id: "62785BD8C0584120"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Icy Mining"
+			x: 2.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["0E8D089C7CA35E51"]
+			description: [
+				"Inside the &lCatacombs&r, there are ancient machines that roam the halls called &lForgotten Guardians&r. "
+				""
+				"By killing them, you will get even more &lForgotten Nuggets&r, which can make &lForgotten Ingots&r, used to make the &lArcane Steel Pickaxe&r!"
+			]
+			hide_until_deps_complete: true
+			id: "4BDFEE323D77B772"
+			optional: true
+			rewards: [{
+				id: "120706157C4459F9"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Slay a Forgotten Guardian"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: "undergarden:forgotten_ingot"
+				id: "70290CDD498375BD"
+				title: "Forgotten with Time"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -15.5d
+		}
+		{
+			description: ["Make sure to gather some &lArcane Essence&r, this is another essential material needed to craft the &lArcane Steel Pickaxe&r, as well as many other &lMagical Items&r!"]
+			id: "44BC7F452CF55134"
+			rewards: [{
+				id: "10BE3043872BC0FC"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Gather Arcane Essence"
+			tasks: [{
+				count: 8L
+				id: "712C728025ED546A"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			title: "A Little Magical"
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["44BC7F452CF55134"]
+			description: ["To make the &lArcane Steel Pickaxe&r, you will need an &lArcane Ingot&r to combine with other materials to make an &lArcane Steel Ingot&r!"]
+			hide_until_deps_complete: true
+			id: "0405903A464E8BC3"
+			rewards: [{
+				id: "6089D2A7C7AB6A2A"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Craft an Arcane Ingot"
+			tasks: [{
+				id: "53510DA378133BB8"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			title: "A Magical Alloy"
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"0405903A464E8BC3"
+				"6C404C77FED32E9D"
+				"7C715EF2E3F42CD6"
+			]
+			description: ["It's time to craft an &lArcane Steel Ingot&r, one of the final steps to creating the &lArcane Steel Pickaxe&r and escaping the Undergarden!"]
+			hide_until_deps_complete: true
+			id: "599116DBBBA7ABDE"
+			rewards: [{
+				id: "6906F89C3ACABF27"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Craft an Arcane Steel Ingot"
+			tasks: [{
+				id: "10997899F1BAC869"
+				item: "kubejs:arcane_steel_ingot"
+				type: "item"
+			}]
+			title: "The Final Steps"
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"2B14EE626AC43CF2"
+				"599116DBBBA7ABDE"
+			]
+			description: ["You can now craft yourself an &lArcane Steel Pickaxe&r, which is the final step to being able to mine up to the next layer!"]
+			hide_until_deps_complete: true
+			id: "574481E8C8370412"
+			rewards: [{
+				id: "3408EDA4C134BC80"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Craft an Arcane Steel Pickaxe"
+			tasks: [{
+				id: "6A96E4C385FA3257"
+				item: {
+					Count: 1
+					id: "kubejs:arcane_steel_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Escape the Undergarden"
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["574481E8C8370412"]
+			description: ["You have finally escaped the &lUndergarden&r, and now you are faced with another, much &lhotter&r layer!"]
+			id: "28B0CD27C954EEB0"
+			rewards: [{
+				id: "73FCF96D1D2FF559"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "Enter the Next Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "2F17BCC68E43CEE7"
+				title: "Highway to Hell"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["7C715EF2E3F42CD6"]
+			description: ["&lForgotten Tools&r are some of the best &ltools&r and &lweapons&r in the Undergarden, so they are worth making if you plan on staying for a while!"]
+			hide_until_deps_complete: true
+			id: "317A67F1AE115E26"
+			optional: true
+			require_sequential_tasks: false
+			rewards: [{
+				id: "0426A52D466B7E85"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Craft Forgotten Tools"
+			tasks: [
+				{
+					id: "273511AD891F33F5"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D54BA60E60AB840"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forgotten Relics"
+			x: -3.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["55CD93EF4B1005BC"]
+			description: ["&lFroststeel Armour&r is a pretty good set for early Undergarden progression, try and make a full set of &lFroststeel Armour&r!"]
+			hide_until_deps_complete: true
+			id: "2BCAB4266993635F"
+			optional: true
+			rewards: [{
+				id: "016F811FA6DC2A5C"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Craft a Froststeel Armour Set"
+			tasks: [
+				{
+					id: "3524FD08E0C83437"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35F9C3B39EAE81B7"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76B9D9954C844233"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57F1CAA60C26D608"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A Cold Shoulder"
+			x: 6.0d
+			y: -17.0d
+		}
+		{
+			description: ["The &lMagic Catacombs&r are filled with &lloot&r, as well as many &ldangerous mobs&r, &ltraps&r and a &lsecret boss&r defending its throne, even after death..."]
+			id: "3F4502F4EFDE221C"
+			optional: true
+			rewards: [{
+				id: "1D537FDDEAC579BF"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Enter the Magic Catacombs"
+			tasks: [{
+				id: "33635DA127DB4349"
+				structure: "customworldgen:catacombs"
+				title: "The Magic Catacombs"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"3F4502F4EFDE221C"
+				"74BC5611895A556C"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"A &lking&r will defend its throne, even beyond death. "
+				""
+				"The &lDead King&r and its &lminions&r will pose a large threat, but by defeating it, you will be &lrewarded&r well!"
+			]
+			id: "46E7E6D16CBC9DFF"
+			optional: true
+			rewards: [
+				{
+					id: "0751950655EE7D83"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "3D62AD4E50D4E241"
+					table_id: 2565421172669015594L
+					type: "random"
+				}
+				{
+					id: "6F8BAEB715B63C46"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Slay the Dead King"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "04C50C00452F7DC8"
+				title: "An Ancient King and his Throne"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			description: [
+				"When they say you've hit rock bottom, the only way you can go is up! "
+				""
+				"Welcome to Abyssal Ascent, you have been sent to the Undergarden, the lowest of lands and your new prison. "
+				""
+				"Your new mission and purpose is to reach the surface again, but you will have to venture through harsh evnvironments, face perilous foes and challenges to hurdle!"
+				""
+				"Can you reach the surface?"
+			]
+			icon: "undergarden:deepturf_block"
+			id: "167A537B043A5E1D"
+			subtitle: "The Only Way is Up!"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "739907E41782730B"
+				type: "dimension"
+			}]
+			title: "Welcome to the Abyss!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"If you want shared quest rewards for your entire party, you can create a team with FTBTeams!"
+				""
+				"This means if any of your party members complete an advancement, you all &lget your own rewards.&r"
+			]
+			icon: "minecraft:chest"
+			id: "0CEF5ECD6098E9E7"
+			subtitle: "Shared Quest Rewards"
+			tasks: [{
+				id: "7C194C9B43CD0228"
+				title: "FTBTeams"
+				type: "checkmark"
+			}]
+			title: "FTBTeams"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E8D089C7CA35E51"]
+			id: "753E004681EB259D"
+			rewards: [{
+				id: "04A1D06982ECC0F5"
+				item: "irons_spellbooks:fireward_ring"
+				type: "item"
+			}]
+			subtitle: "Artifacts are important items that provide massive buffs varying from QoL to game changing. They can be equipped in your curios slots."
+			tasks: [{
+				id: "5C0B719A18E57563"
+				title: "Artifacts"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["46E7E6D16CBC9DFF"]
+			description: ["Use the scroll, \"&lCall Forth The Enraged Dead King&r\" to summon a difficult fight."]
+			hide_until_deps_complete: true
+			id: "0CAF93291F2B0D22"
+			optional: true
+			rewards: [{
+				id: "0728449AEC3C5C06"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:vigor_siphon"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The best spell, a difficult challenge, will you come out ontop?"
+			tasks: [{
+				entity: "traveloptics:enraged_dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:call_forth_the_dead_king"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				id: "4871B21C99F7D66E"
+				optional_task: true
+				title: "A king gone mad"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -12.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "patchouli:aa_guide_book"
+				}
+			}
+			id: "7520E708C1D3B7F7"
+			subtitle: "Make sure to understand the general flow of this pack for the optimal experience"
+			tasks: [{
+				id: "666BC730EC951853"
+				title: "Read General Mechanics"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"To stop spells and other things from hurting others, use the &7&l`/team`&r&r command."
+				""
+				"&lExample Usage:&r"
+				""
+				"&oCreate team:&r"
+				"&7/team add <team-name> <optional_display_name>&r"
+				""
+				"&oAdd players to team:&r"
+				"&7/team join <team-name> <player(s)>&r"
+				""
+				"&c(This needs 'Cheats' to be enabled in your world or you to be OP'd)&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+					Reforged: {
+						Tier: "tiered:melee_weapons/extended"
+					}
+				}
+			}
+			id: "0D50E6C03C1C4F0B"
+			subtitle: "Don't annihilate your allies!"
+			tasks: [{
+				id: "30471EF788EB67D9"
+				title: "Disable Friendly Fire"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["46E7E6D16CBC9DFF"]
+			description: [
+				"A &lking&r will defend its throne, continuing even beyond its first death and all the more that follow. "
+				""
+				"The &lDead King&r and its &lminions&r will pose a large threat, but by defeating it, you will be &lrewarded&r!"
+			]
+			hide_until_deps_complete: true
+			id: "2F2B4613E40DAE09"
+			optional: true
+			rewards: [
+				{
+					id: "0438347E32D16AD5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "72BC27CC2760E1FE"
+					table_id: 2565421172669015594L
+					type: "random"
+				}
+			]
+			subtitle: "Slay the Dead King... Again"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "562963FE3545EF16"
+				title: "An Ancient King and his Throne"
+				type: "kill"
+				value: 1L
+			}]
+			title: "A King, his Throne, your Sword"
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"&lIron... Cloggrum...&r they're the same, right? Well, yes. But &lCloggrum&r is for cool kids, &lIron&r for the old folk who like to keep it traditional."
+				""
+				"Maybe you stumbled upon it accidentally, in that case, we forgive you."
+			]
+			id: "249B5B83B93C1E6F"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6A63A34E4101938B"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Keeping it traditional"
+			tasks: [{
+				id: "40DB71C94B4B9DE6"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "The Original Upgrade!"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["Whoa-oh, you found some &ldiamonds&r! Surely you're not trying to skip progression, right? Probably not, since there's something &oshiny&r, &4red&r and &lstronger&r available."]
+			id: "56A742D1381C298D"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "15860A26EE0DF010"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "There's nothing stronger, right?"
+			tasks: [{
+				id: "6EE267D9D07664B3"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamonds!"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E8D089C7CA35E51"]
+			description: [
+				"Collect a &lForgotten Nugget&r. Those &oGuardians&r, I might be &oforgetting&r them, do drop more. "
+				""
+				"Fight them, collect more &lForgotten Ingots&r, which can then be used to make the &lArcane Steel Pickaxe&r!"
+			]
+			hide_until_deps_complete: true
+			id: "7C715EF2E3F42CD6"
+			rewards: [{
+				id: "2FA86EDEF8E02F2E"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Collect a Forgotten Nugget"
+			tasks: [{
+				id: "682B7A190AED5B8E"
+				item: "undergarden:forgotten_nugget"
+				type: "item"
+			}]
+			title: "A figment of memory"
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0E8D089C7CA35E51"]
+			description: [
+				"The &lmighty&r, the &ldevastating&r, the &lloyal&r... Does the &lDead King&r really come from an egg? What else comes from an egg, other mobs... us?"
+				""
+				"You found his egg, now go fight him anywhere you want. It's more fun in his &lThrone Room&r though."
+			]
+			id: "74BC5611895A556C"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "78C960D0F55519D6"
+				type: "xp"
+				xp: 70
+			}]
+			subtitle: "You weren't meant to find this"
+			tasks: [{
+				id: "7D10BD62060EFD0C"
+				item: "irons_spellbooks:dead_king_corpse_spawn_egg"
+				type: "item"
+			}]
+			title: "Wait a Minute"
+			x: -4.0d
+			y: -12.5d
+		}
+	]
+	title: "Undergarden"
+}

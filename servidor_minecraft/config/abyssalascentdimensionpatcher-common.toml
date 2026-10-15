@@ -1,0 +1,4 @@
+#Sets to true whenever the player enters a world the first time to notify them about potential issues
+#Serves no purpose to playthrough and is client sided
+warnDistantHorizonsCompatiblity = true
+

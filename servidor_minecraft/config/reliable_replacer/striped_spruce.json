@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "minecraft:stripped_spruce_wood"
+  ],
+  "output": "undergarden:stripped_wigglewood_wood",
+
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "probability": 1.0,
+  "retrogen": false,
+  "player_blocks": false,
+  "keep_states": true
+}

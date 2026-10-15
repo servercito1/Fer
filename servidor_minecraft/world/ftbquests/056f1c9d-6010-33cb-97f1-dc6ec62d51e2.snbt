@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "056f1c9d601033cb97f1dc6ec62d51e2"
+	name: "_Yeoz_#056f1c9d"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		739907E41782730B: 1
+	}
+	started: {
+		167A537B043A5E1D: 1791941300835L
+		0000000000000001: 1791941300835L
+		739907E41782730B: 1791941300835L
+		60F5E1E7CEC7F511: 1791941300835L
+	}
+	completed: {
+		167A537B043A5E1D: 1791941300835L
+		739907E41782730B: 1791941300835L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

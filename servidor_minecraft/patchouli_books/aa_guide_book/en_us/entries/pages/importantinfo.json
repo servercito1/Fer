@@ -1,0 +1,27 @@
+{
+    "name": "Important Info",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:must_read",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "THE GUIDEBOOK IS NO LONGER USED FOR GENERAL INFORMATION, REFER TO THE QUESTBOOK FROM NOW ON. WE'LL POSSIBLY REWORK THIS LATER BUT IT'S UNSURE, YOU CAN DSIABLE IT COMING ON RESPAWN!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "If you're reading this while in the overworld, it means the undergarden didn't load in before you did, to go down to the undergarden, simply die and respawn."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "When you cross dimensions your curios will break, this includes backpacks, accesories, mana etc. $(br)To fix this, simply press F8 to do a hard resync."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "How do I progress in Abyssal Ascent? $(br)$(br)For each dimension you can find what you need to do and how to do it within the guidebook. $(br)To ascend, you have to go upwards until you reach obsidian."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "In the undergarden it goes from Stone to Cloggrum to Utherium, you do not need netherite to get Arcane Debris despite the name"
+        }
+    ]
+}

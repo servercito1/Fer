@@ -1,0 +1,41 @@
+{
+	autofocus_id: "072FEC57CDA9A860"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: ""
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:grass_block"
+	id: "62A3CFFF60FD6A98"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["37C96FED6BDE4677"]
+		description: [
+			"You have escaped the &lUndergarden&r and have made it to the &lOverworld&r. "
+			""
+			"Thank you so much for playing Abyssal Ascent, we appreciate all the support that we get! "
+			""
+			"Make sure to join our &lDiscord Server&r to be updated on &lnew updates&r for the modpack!"
+		]
+		id: "072FEC57CDA9A860"
+		invisible: true
+		rewards: [{
+			id: "2482819256C712CE"
+			type: "xp"
+			xp: 200
+		}]
+		subtitle: "Congratulations!"
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: "minecraft:grass_block"
+			id: "39C7AA37BB6A79C7"
+			type: "dimension"
+		}]
+		title: "Overworld"
+		x: 1.0d
+		y: 1.5d
+	}]
+	title: "Overworld"
+}
